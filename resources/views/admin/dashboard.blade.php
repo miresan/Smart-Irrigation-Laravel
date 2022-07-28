@@ -207,7 +207,7 @@
                   $.each(response.moisturesensor , function(key , value){ // if nested json need other each inside of this each
                       // console.log(value.moisturesensor1);
 
-                      var vmoisture = $('<h6>'+value.moisturesensor1+'°C</h6>');
+                      var vmoisture = $('<h6>'+value.moisturesensor1+'%</h6>');
                       $('#moisture1').empty().append(vmoisture);
 
                    });
