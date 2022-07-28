@@ -1,0 +1,11 @@
+.navbar .navbar-right .navbar-nav .notifications-menu .dropdown-toggle:after {
+    border: 3px solid #ffffff !important;
+    content: '';
+    margin: 0;
+    position: relative;
+    width: 11px;
+    height: 11px;
+    border-radius: 100px;
+    top: -18px;
+    left: -17px;
+}
